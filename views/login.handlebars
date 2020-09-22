@@ -1,0 +1,38 @@
+<form class="login-form">
+  <div>
+    <label for="email-login">email:</label>
+    <input type="text" id="email-login" />
+  </div>
+  <div>
+    <label for="password-login">password:</label>
+    <input type="password" id="password-login" />
+  </div>
+  <div>
+    <button type="submit">login</button>
+  </div>
+</form>
+
+
+<form class="signup-form">
+  <div>
+    <label for="username-signin">username:</label>
+    <input type="text" id="username-signin" />
+  </div>
+  <div>
+    <label for="email-signin">email:</label>
+    <input type="text" id="email-signin" />
+  </div>
+  <div>
+    <label for="password-signin">password:</label>
+    <input type="password" id="password-signin" />
+  </div>
+  <div>
+    <button type="submit">sign-in</button>
+  </div>
+</form>
+
+router.get('/login', (req, res) => {
+  res.render('login');
+});
+
+<script src="/javascript/login.js"></script>
